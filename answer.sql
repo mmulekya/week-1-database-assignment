@@ -1,4 +1,4 @@
-```sql
+
 -- Week 1 Database Assignment
 -- Topic: Hotel Management System
 
@@ -188,4 +188,4 @@ JOIN bookings
     ON payments.booking_id = bookings.booking_id
 JOIN guests
     ON bookings.guest_id = guests.guest_id;
-```
+
